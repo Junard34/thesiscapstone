@@ -1,1 +1,1 @@
-# thesiscapstone
+# caprojstone

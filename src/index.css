@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.5;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.dashboard-dark {
+  color: #e2e8f0;
+  background-color: #0f172a !important;
+}
+
+.dashboard-dark main {
+  background-color: #0f172a !important;
+}
+
+.dashboard-dark .bg-white,
+.dashboard-dark .bg-slate-50,
+.dashboard-dark .bg-slate-50\/30 {
+  background-color: #172033 !important;
+}
+
+.dashboard-dark .bg-slate-100,
+.dashboard-dark .bg-slate-200,
+.dashboard-dark .bg-gray-100 {
+  background-color: #263449 !important;
+}
+
+.dashboard-dark .text-slate-900,
+.dashboard-dark .text-slate-700,
+.dashboard-dark .text-slate-600,
+.dashboard-dark .text-gray-800 {
+  color: #e2e8f0 !important;
+}
+
+.dashboard-dark .text-slate-500,
+.dashboard-dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.dashboard-dark .border-slate-100,
+.dashboard-dark .border-slate-200,
+.dashboard-dark .border-slate-300 {
+  border-color: #334155 !important;
+}
+
+.dashboard-dark input,
+.dashboard-dark select,
+.dashboard-dark textarea {
+  color: #e2e8f0;
+  background-color: #172033;
+  border-color: #475569;
+}
+
+.dashboard-dark input::placeholder,
+.dashboard-dark textarea::placeholder {
+  color: #94a3b8;
+}
+
+.dashboard-dark .hover\:bg-slate-50:hover {
+  background-color: #263449 !important;
+}
+
+.dashboard-dark .hover\:bg-slate-200:hover {
+  background-color: #334155 !important;
+}
+
+.dashboard-dark .hover\:border-slate-300:hover {
+  border-color: #64748b !important;
+}

@@ -1,0 +1,59 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="sealTextTop" d="M 248 500 A 252 252 0 1 1 752 500 A 252 252 0 1 1 248 500" />
+    <path id="sealTextBottom" d="M 952 500 A 252 252 0 1 0 248 500 A 252 252 0 1 0 952 500" />
+  </defs>
+
+  <circle cx="600" cy="600" r="515" fill="#E5E7EB" fill-opacity="0.9"/>
+  <circle cx="600" cy="600" r="485" stroke="#111827" stroke-width="18"/>
+
+  <g fill="#FACC15">
+    <polygon points="600,50 635,150 600,110 565,150"/>
+    <polygon points="600,1150 635,1050 600,1090 565,1050"/>
+    <polygon points="50,600 150,565 110,600 150,635"/>
+    <polygon points="1150,600 1050,565 1090,600 1050,635"/>
+    <polygon points="200,200 270,275 222,250 250,305"/>
+    <polygon points="1000,200 930,275 978,250 950,305"/>
+    <polygon points="200,1000 270,925 222,950 250,895"/>
+    <polygon points="1000,1000 930,925 978,950 950,895"/>
+    <polygon points="260,117 360,160 320,200 380,245"/>
+    <polygon points="940,117 840,160 880,200 820,245"/>
+    <polygon points="260,1083 360,1040 320,1000 380,955"/>
+    <polygon points="940,1083 840,1040 880,1000 820,955"/>
+  </g>
+
+  <g>
+    <circle cx="600" cy="600" r="300" fill="#F5F5F5"/>
+    <path d="M275 650C330 570 390 540 470 540H730C810 540 870 570 925 650V695H275V650Z" fill="#0E7C6E"/>
+    <path d="M285 690H915C920 720 910 760 884 794C858 828 820 854 760 870H440C380 854 342 828 316 794C290 760 280 720 285 690Z" fill="#0E7C6E"/>
+    <path d="M335 600C390 545 460 515 539 515H661C740 515 810 545 865 600L801 645H399L335 600Z" fill="#27A4D7"/>
+    <path d="M420 690H780V760H420V690Z" fill="#0C4A6E" fill-opacity="0.8"/>
+    <path d="M395 770H805C840 770 870 795 870 830V860H330V830C330 795 360 770 395 770Z" fill="#D8B56A"/>
+    <path d="M366 664H834L808 700H392L366 664Z" fill="#0F172A" fill-opacity="0.55"/>
+    <g fill="#1F2937">
+      <rect x="430" y="700" width="25" height="50" rx="4"/>
+      <rect x="525" y="700" width="25" height="50" rx="4"/>
+      <rect x="620" y="700" width="25" height="50" rx="4"/>
+      <rect x="715" y="700" width="25" height="50" rx="4"/>
+    </g>
+    <g fill="#F3F4F6">
+      <rect x="470" y="620" width="20" height="40" rx="2"/>
+      <rect x="710" y="620" width="20" height="40" rx="2"/>
+    </g>
+    <path d="M310 760H890" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text fill="#111827" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="86" textLength="730" lengthAdjust="spacingAndGlyphs" text-anchor="middle">
+      <textPath xlink:href="#sealTextTop" startOffset="50%">BARANGAY SARAY</textPath>
+    </text>
+    <text fill="#111827" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="74" textLength="560" lengthAdjust="spacingAndGlyphs" text-anchor="middle">
+      <textPath xlink:href="#sealTextBottom" startOffset="50%">OFFICIAL SEAL</textPath>
+    </text>
+  </g>
+
+  <g fill="#111827" opacity="0.9">
+    <path d="M405 478L430 500L455 478L480 500L505 478L530 500L555 478L575 500L350 500L375 478L405 478Z"/>
+    <path d="M625 478L650 500L675 478L700 500L725 478L750 500L775 478L795 500L570 500L595 478L625 478Z"/>
+  </g>
+</svg>
